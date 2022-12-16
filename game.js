@@ -33,7 +33,7 @@ $(".btn").click(function() {
 
     playSound(userChosenColour); // play the sound of the button that got clicked
     
-    animatePress(userChosenColour);
+    animatePress(userChosenColour); // animate the button that got clicked
 
     // Call checkAnswer() after a user has clicked and chosen their answer, passing in the index of the last answer in the user's sequence.
     checkAnswer(userClickedPattern.length-1);
