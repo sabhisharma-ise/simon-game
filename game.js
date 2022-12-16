@@ -22,7 +22,7 @@ $(document).keydown(function() {
     }
 });
 
-
+// Use jQuery to detect when any of the buttons are clicked and trigger a handler function.
 $(".btn").click(function() {
     
     // store the id of the button that got clicked
